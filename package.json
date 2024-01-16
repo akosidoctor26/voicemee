@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "@xenova/transformers": "^2.6.2",
     "classnames": "^2.5.1",
     "next": "14.0.4",
     "react": "^18",

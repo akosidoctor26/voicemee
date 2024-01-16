@@ -4,6 +4,7 @@ enum RecordingStates {
   Inactive = "inactive",
   Recording = "recording",
   Paused = "paused",
+  Recorded = "recorded",
 }
 
 interface IUseMediaRecorder {
