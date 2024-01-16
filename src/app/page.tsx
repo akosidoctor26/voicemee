@@ -62,7 +62,7 @@ export default function Home() {
   const decodeAudio = async () => {
     const audioCtx = new AudioContext({ sampleRate: 16000 });
     const arrayBuffer = await mediaBlob?.arrayBuffer?.();
-    const decodedAudioData = await audioCtx.decodeAudioData(arrayBuffer);
+    const decodedAudioData = await audioCtx.decodeAudioData(arrayBuffer!);
     const audio = decodedAudioData.getChannelData(0);
 
     return audio;
